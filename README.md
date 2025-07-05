@@ -13,14 +13,21 @@ This repository contains the code, exercises, and projects I’m building as par
 - ✅ REST API development with Spring Boot & Spring Data JPA
 - ✅ Final project – complete backend application
 
-## 📁 Repository Structure
+## 🛠️ Technologies Used
 
-```plaintext
-📦 java-jump
- ┣ 📂 week1_hello-world         # Simple Java SE programs
- ┣ 📂 oop_basics                # Classes, inheritance, polymorphism
- ┣ 📂 budget_app                # Console project – Budget tracker
- ┣ 📂 sql_exercises             # SQL scripts and queries
- ┣ 📂 springboot_todo_api       # Basic REST API using Spring Boot
- ┣ 📂 final_project             # Full-stack backend project
- ┣ 📜 README.md
+- Java 17
+- IntelliJ IDEA (Community Edition)
+- Git & GitHub
+- PostgreSQL / H2 Database
+- JUnit 5
+- Spring Boot 3.x
+- Maven
+
+## 🎯 Purpose
+
+This repository documents my learning journey and serves as a showcase of my skills as a junior Java developer. All code is written and committed weekly throughout the course.
+
+## 📌 Progress
+
+Weekly updates as the course progresses.
+Each project includes its own README with setup instructions.
