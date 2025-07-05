@@ -7,7 +7,7 @@ This repository contains the code, exercises, and projects I’m building as par
 ✅ Java SE fundamentals (variables, loops, arrays, regex, exceptions) \
 ✅ Object-Oriented Programming (classes, inheritance, polymorphism, SOLID) \
 ✅ Testing with JUnit 5, refactoring & clean code \
-✅ File I/O and basic concurrency \ 
+✅ File I/O and basic concurrency \
 ✅ SQL & relational databases \
 ✅ ORM with JPA/Hibernate, PostgreSQL and H2 \
 ✅ REST API development with Spring Boot & Spring Data JPA \
