@@ -24,12 +24,21 @@ public class Task {
 
         System.out.println("varFloat: " + varFloat + ", varDouble: " + varDouble + ", varBoolean: " + varBoolean + ", varChar: " + varChar);
 
-        System.out.println(myVar1 + myVar2);
-        System.out.println(myVar1 - myVar2);
-        System.out.println(myVar1 * myVar2);
-        System.out.println(myVar1 / myVar2);
-        System.out.println(myVar1 % myVar2);
+        System.out.println("Those are my new variables: " + "myVar1: " + myVar1 + ", myVar2: " + myVar2);
 
+        System.out.println("addition: " + (myVar1 + myVar2));
+        System.out.println("subtraction: " + (myVar1 - myVar2));
+        System.out.println("multiplication: " + (myVar1 * myVar2));
+        System.out.println("division: " + (myVar1 / myVar2));
+        System.out.println("module: " + (myVar1 % myVar2));
 
+        int numberOfItems = 200;
+        System.out.println("I am declaring number of items: " + numberOfItems);
+
+        if (numberOfItems < 100) {
+            System.out.println("Number of items is less than 100");
+        }
+        else
+            System.out.println("Number of items is more than 100");
     }
 }
