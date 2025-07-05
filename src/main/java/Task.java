@@ -10,6 +10,9 @@ public class Task {
         boolean varBoolean = true;
         char varChar = 'A';
 
+        int myVar1 = 10;
+        int myVar2 = 7;
+
         System.out.println("This is my first Java task!");
 
         System.out.println("varByte: " + varByte + ", varShort: " + varShort + ", varInt: " + varInt + ", varLong: " + varLong);
@@ -20,6 +23,12 @@ public class Task {
         // System.out.println("varLong: " + varLong);
 
         System.out.println("varFloat: " + varFloat + ", varDouble: " + varDouble + ", varBoolean: " + varBoolean + ", varChar: " + varChar);
+
+        System.out.println(myVar1 + myVar2);
+        System.out.println(myVar1 - myVar2);
+        System.out.println(myVar1 * myVar2);
+        System.out.println(myVar1 / myVar2);
+        System.out.println(myVar1 % myVar2);
 
 
     }
