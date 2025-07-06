@@ -1,4 +1,4 @@
-public class Ex3 {
+public class Ex011 {
 
     public static void main(String[] args) {
         int[] myItems = {1, 20, 76, 15, 8};

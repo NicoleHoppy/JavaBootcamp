@@ -1,4 +1,4 @@
-public class Ex7 {
+public class Ex015 {
     public static void main(String[] args) {
         double[] myItems = {20.00, 20.00, 1.00, 20.00, 20.00};
 

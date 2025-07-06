@@ -1,18 +1,17 @@
 import java.util.Scanner;
 
-public class EvenOrOdd {
+public class Ex05 {
     public static void main(String[] args) {
-        int i = 21;
 
         Scanner scanner = new Scanner(System.in);
         System.out.printf("Please, give me a number: ");
         int number = scanner.nextInt();
 
-        if (number % 2 == 0) {
-            System.out.println("This number is even.");
+        if (number % 3 == 0 && number % 5 == 0) {
+            System.out.println("This number can be divided by 3 and 5.");
         }
         else {
-            System.out.println("This number is odd.");
+            System.out.println("This number cannot be divided by 3 and 5.");
         }
     }
 }
