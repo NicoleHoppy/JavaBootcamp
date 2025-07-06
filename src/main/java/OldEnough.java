@@ -1,8 +1,13 @@
+import java.util.Scanner;
+
 public class OldEnough {
     public static void main(String[] args) {
-        int i = 17;
 
-        if (i >= 18) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.printf("Please, give me a number: ");
+        int number = scanner.nextInt();
+
+        if (number >= 18) {
             System.out.println("This is adult.");
         }
         else {

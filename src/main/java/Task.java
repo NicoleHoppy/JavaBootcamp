@@ -41,6 +41,11 @@ public class Task {
         else
             System.out.println("Number of items is more than 100");
 
+        String[] cars = {"Opel", "Audi", "Fiat"};
+        for (String car:cars){
+            System.out.println(car);
+        }
+
 
     }
 }

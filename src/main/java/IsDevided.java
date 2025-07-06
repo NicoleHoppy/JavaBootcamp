@@ -1,8 +1,13 @@
+import java.util.Scanner;
+
 public class IsDevided {
     public static void main(String[] args) {
-        int i = 30;
 
-        if (i % 3 == 0 && i % 5 == 0) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.printf("Please, give me a number: ");
+        int number = scanner.nextInt();
+
+        if (number % 3 == 0 && number % 5 == 0) {
             System.out.println("This number can be divided by 3 and 5.");
         }
         else {
