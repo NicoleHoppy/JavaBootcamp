@@ -9,9 +9,6 @@ public class Ex014 {
             if (item == number) {
                 count++;
             }
-            else {
-                continue;
-            }
         }
         System.out.println(count);
     }
