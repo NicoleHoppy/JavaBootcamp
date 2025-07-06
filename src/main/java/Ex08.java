@@ -14,7 +14,7 @@ public class Ex08 {
         int thirdNumber = scanner.nextInt();
 
         if (firstNumber > secondNumber) {
-            if (firstNumber > secondNumber) {
+            if (firstNumber > thirdNumber) {
                 System.out.println("First number = " + firstNumber + " is the biggest number.");
             }
         }
