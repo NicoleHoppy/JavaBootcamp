@@ -31,3 +31,17 @@ This repository documents my learning journey and serves as a showcase of my ski
 
 Weekly updates as the course progresses.
 Each project includes its own README with setup instructions.
+
+### 1. Week 1 Summary: Java Fundamentals + Maps
+Topics Covered:
+- Environment setup on Ubuntu (JDK, IntelliJ IDEA, Git)
+- Java syntax basics: variables, data types, arithmetic and logical operators
+- Control flow: if, else
+- Loops: for, while, do-while
+- Arrays: single-dimensional
+- String basics and common string methods
+- Introduction to methods: parameters and return values
+- Intro to Java Collections:
+  - List
+  - Set
+  - Map (main focus: HashMap)
