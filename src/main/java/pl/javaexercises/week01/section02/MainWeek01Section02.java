@@ -10,8 +10,9 @@ public class MainWeek01Section02 {
             new Ex01TableOfFiveNumbers(new int[] {1, 2, 3, 4, 5}),
             new Ex02CountNumbersAboveTen(new int[] {1, 2, 13, 16, 49}),
             new Ex03MaximumInTable(new int[] {1, 25, 3, 4, 5}),
-            new Ex04SumOfTable(new int[]{1, 2, 3, 4, 5}),
-                new Ex05ReversedTable(new int[]{1, 2, 3, 4, 5}));
+            new Ex04SumOfTable(new int[] {1, 2, 3, 4, 5}),
+            new Ex05ReversedTable(new int[] {1, 2, 3, 4, 5}),
+            new Ex06HowManyTimes(new int[]{1, 2, 3, 4, 3, 12, 2, 2, 2}));
 
         tasks.forEach(task -> System.out.println(task.run()));
     }
