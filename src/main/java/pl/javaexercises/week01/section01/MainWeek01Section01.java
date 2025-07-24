@@ -11,7 +11,8 @@ public class MainWeek01Section01 {
             new Ex01StandardLoop(),
             new Ex02ReversedLoop(),
             new Ex03OnlyEven(),
-            new Ex04NumberType(-51));
+            new Ex04NumberType(-51),
+            new Ex05IsDivided(63));
 
         tasks.forEach(task -> System.out.println(task.run()));
     }
