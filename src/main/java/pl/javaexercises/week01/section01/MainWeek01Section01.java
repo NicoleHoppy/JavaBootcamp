@@ -6,8 +6,9 @@ import pl.javaexercises.week01.Task;
 public class MainWeek01Section01 {
     public static void main(String[] args) {
 
-        List<Task<String>> tasks = List.of(
-                new Ex01StandardLoop());
+    List<Task<String>> tasks = List.of(
+            new Ex01StandardLoop(),
+            new Ex02ReversedLoop());
 
         tasks.forEach(task -> System.out.println(task.run()));
     }
