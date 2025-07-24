@@ -1,5 +1,6 @@
 package pl.javaexercises.week01.section02;
 
+import java.util.Arrays;
 import java.util.StringJoiner;
 import pl.javaexercises.week01.Task;
 
@@ -20,7 +21,10 @@ public class Ex01TableOfFiveNumbers implements Task<String> {
             for (int t : table) {
                 joiner.add(String.valueOf(t));
             }
-            return "Numbers from table are as follows: " + joiner;
+      return "Numbers from the following table: "
+          + Arrays.toString(table)
+          + " are as follows: "
+          + joiner;
         }
         return "Wrong table length! Required length is 5!";
     }
