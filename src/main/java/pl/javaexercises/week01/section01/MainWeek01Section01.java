@@ -7,9 +7,11 @@ public class MainWeek01Section01 {
     public static void main(String[] args) {
 
     List<Task<String>> tasks =
-        List.of(new Ex01StandardLoop(),
-                new Ex02ReversedLoop(),
-                new Ex03OnlyEven());
+        List.of(
+            new Ex01StandardLoop(),
+            new Ex02ReversedLoop(),
+            new Ex03OnlyEven(),
+            new Ex04NumberType(-51));
 
         tasks.forEach(task -> System.out.println(task.run()));
     }
