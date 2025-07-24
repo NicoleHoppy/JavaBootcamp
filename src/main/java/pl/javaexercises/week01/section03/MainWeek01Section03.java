@@ -9,7 +9,8 @@ public class MainWeek01Section03 {
         List<Task<String>> tasks = List.of(
                 new Ex01ListOfNames(List.of("Kate", "Peter", "Anna", "Tom")),
                 new Ex02IsContaining(List.of("Kate", "Peter", "Anna")),
-                new Ex03MapOfNamesAges(Map.of("Anne", 20, "Kate", 25))
+                new Ex03MapOfNamesAges(Map.of("Anne", 20, "Kate", 25)),
+                new Ex04AboveEighteen(Map.of("Tom", 17, "Ann", 20, "Kate", 30))
         );
 
         tasks.forEach(task -> System.out.println(task.run()));
