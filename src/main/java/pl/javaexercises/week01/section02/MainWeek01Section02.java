@@ -6,8 +6,9 @@ import pl.javaexercises.week01.Task;
 public class MainWeek01Section02 {
     public static void main(String[] args) {
     List<Task<String>> tasks =
-        List.of(
-            new Ex01TableOfFiveNumbers(new int[] {1, 2, 3, 4, 5}), new Ex02CountNumbersAboveTen(new int[] {1, 2, 13, 16, 49}));
+        List.of(new Ex01TableOfFiveNumbers(new int[] {1, 2, 3, 4, 5}),
+                new Ex02CountNumbersAboveTen(new int[] {1, 2, 13, 16, 49}),
+                new Ex03MaximumInTable(new int[] {1, 25, 3, 4, 5}));
 
         tasks.forEach(task -> System.out.println(task.run()));
     }
