@@ -5,6 +5,8 @@ import pl.javaexercises.week01.Task;
 
 public class Ex04SumOfTable implements Task<String> {
 
+//    4. Write a program that calculates the sum of all elements in an int array.
+
     int[] table;
 
     public Ex04SumOfTable(int[] table) {
