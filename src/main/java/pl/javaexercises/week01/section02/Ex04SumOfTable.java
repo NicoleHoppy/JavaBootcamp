@@ -1,11 +1,11 @@
 package pl.javaexercises.week01.section02;
 
 import java.util.Arrays;
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 // 4. Write a program that calculates the sum of all elements in an int array.
 
-public class Ex04SumOfTable implements Task<String> {
+public class Ex04SumOfTable implements TaskWeek01<String> {
 
   int[] table;
 

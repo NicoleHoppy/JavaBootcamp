@@ -1,11 +1,12 @@
 package pl.javaexercises.week01.section01;
 
 import java.util.StringJoiner;
-import pl.javaexercises.week01.Task;
+
+import pl.javaexercises.week01.TaskWeek01;
 
 // 1. Print numbers from 1 to 10.
 
-public class Ex01StandardLoop implements Task<String> {
+public class Ex01StandardLoop implements TaskWeek01<String> {
 
   @Override
   public String run() {

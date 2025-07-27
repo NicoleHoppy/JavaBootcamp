@@ -1,12 +1,12 @@
 package pl.javaexercises.week01.section03;
 
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 import java.util.List;
 
 // 2. Check if the list of names contains the name "Anna".
 
-public class Ex02IsContaining implements Task<String> {
+public class Ex02IsContaining implements TaskWeek01<String> {
 
   private final List<String> names;
 

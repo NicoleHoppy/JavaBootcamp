@@ -1,11 +1,11 @@
 package pl.javaexercises.week01.section01;
 
 import java.util.StringJoiner;
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 // 3. Print only even numbers from 1 to 20.
 
-public class Ex03OnlyEven implements Task<String> {
+public class Ex03OnlyEven implements TaskWeek01<String> {
 
   @Override
   public String run() {

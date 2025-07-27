@@ -1,12 +1,12 @@
 package pl.javaexercises.week01.section03;
 
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 import java.util.Map;
 
 // 7. Add tasks to a map of status → list of tasks and print all tasks with theTODO status.
 
-public class Ex07TodoTaskPrinter implements Task<String> {
+public class Ex07TodoTaskPrinter implements TaskWeek01<String> {
 
   Map<String, String> statusMap;
 

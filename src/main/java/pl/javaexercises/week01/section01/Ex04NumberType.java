@@ -1,10 +1,10 @@
 package pl.javaexercises.week01.section01;
 
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 // 4. Check whether the given number is positive, negative, or zero.
 
-public class Ex04NumberType implements Task<String> {
+public class Ex04NumberType implements TaskWeek01<String> {
 
   private final int input;
 

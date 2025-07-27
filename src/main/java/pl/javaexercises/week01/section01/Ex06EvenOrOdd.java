@@ -1,10 +1,10 @@
 package pl.javaexercises.week01.section01;
 
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 // 6. Even or odd: Read an integer and print whether it is even or odd.
 
-public class Ex06EvenOrOdd implements Task<String> {
+public class Ex06EvenOrOdd implements TaskWeek01<String> {
 
   private final int input;
 

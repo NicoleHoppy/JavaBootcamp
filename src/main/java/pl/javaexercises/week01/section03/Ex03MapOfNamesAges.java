@@ -1,12 +1,12 @@
 package pl.javaexercises.week01.section03;
 
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 import java.util.Map;
 
 // 3. Create a map of name → age and print all entries.
 
-public class Ex03MapOfNamesAges implements Task<String> {
+public class Ex03MapOfNamesAges implements TaskWeek01<String> {
 
   Map<String, Integer> usersDetails;
 

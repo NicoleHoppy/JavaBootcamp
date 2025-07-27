@@ -1,12 +1,12 @@
 package pl.javaexercises.week01.section02;
 
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 import java.util.Arrays;
 
 // 2. Count how many numbers in the array are greater than 10.
 
-public class Ex02CountNumbersAboveTen implements Task<String> {
+public class Ex02CountNumbersAboveTen implements TaskWeek01<String> {
 
   int[] table;
 

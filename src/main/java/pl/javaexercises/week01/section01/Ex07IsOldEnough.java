@@ -1,11 +1,11 @@
 package pl.javaexercises.week01.section01;
 
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 // 7. Age check: Read the user's age. If they are at least 18 years old, print "Adult", otherwise
 // print "Child".
 
-public class Ex07IsOldEnough implements Task<String> {
+public class Ex07IsOldEnough implements TaskWeek01<String> {
 
   private final int input;
 

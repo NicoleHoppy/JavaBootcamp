@@ -2,11 +2,11 @@ package pl.javaexercises.week01.section02;
 
 import java.util.Arrays;
 import java.util.StringJoiner;
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 // 1. Create an array of 5 numbers and print each of them.
 
-public class Ex01TableOfFiveNumbers implements Task<String> {
+public class Ex01TableOfFiveNumbers implements TaskWeek01<String> {
 
   int REQUIRED_LENGTH = 5;
   int[] table;

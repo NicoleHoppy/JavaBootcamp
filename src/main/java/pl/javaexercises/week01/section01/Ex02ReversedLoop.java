@@ -1,11 +1,11 @@
 package pl.javaexercises.week01.section01;
 
 import java.util.StringJoiner;
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 // 2. Print numbers from 10 to 1 (in reverse order).
 
-public class Ex02ReversedLoop implements Task<String> {
+public class Ex02ReversedLoop implements TaskWeek01<String> {
 
   @Override
   public String run() {

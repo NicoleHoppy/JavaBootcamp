@@ -1,12 +1,12 @@
 package pl.javaexercises.week01.section03;
 
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 import java.util.Map;
 
 // 6. Main task: Filter the task list by status "DONE".
 
-public class Ex06TaskAndDone implements Task<String> {
+public class Ex06TaskAndDone implements TaskWeek01<String> {
 
   Map<String, String> tasks;
 

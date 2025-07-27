@@ -1,6 +1,6 @@
 package pl.javaexercises.week01.section03;
 
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 import java.util.HashMap;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.Map;
 
 // 5. Count how many times a given name appears in the list.
 
-public class Ex05NameOccurrenceCounter implements Task<String> {
+public class Ex05NameOccurrenceCounter implements TaskWeek01<String> {
 
   List<String> names;
 

@@ -1,12 +1,12 @@
 package pl.javaexercises.week01.section02;
 
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 import java.util.Arrays;
 
 // 3. Find the largest number in the array.
 
-public class Ex03MaximumInTable implements Task<String> {
+public class Ex03MaximumInTable implements TaskWeek01<String> {
 
   int[] table;
 

@@ -1,11 +1,11 @@
 package pl.javaexercises.week01.section02;
 
 import java.util.Arrays;
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 // 7. Write a program that calculates the average (arithmetic mean) of elements in a double array.
 
-public class Ex07TheAverageOfTable implements Task<String> {
+public class Ex07TheAverageOfTable implements TaskWeek01<String> {
 
   double[] table;
 

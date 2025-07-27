@@ -2,11 +2,11 @@ package pl.javaexercises.week01.section02;
 
 import java.util.Arrays;
 import java.util.StringJoiner;
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 // 5. Write a program that prints the array in reverse order.
 
-public class Ex05ReversedTable implements Task<String> {
+public class Ex05ReversedTable implements TaskWeek01<String> {
 
   int[] table;
 

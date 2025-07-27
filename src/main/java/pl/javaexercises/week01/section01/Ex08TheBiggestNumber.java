@@ -1,10 +1,10 @@
 package pl.javaexercises.week01.section01;
 
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 // 8. The largest of three numbers: Read 3 numbers and print the largest one.
 
-public class Ex08TheBiggestNumber implements Task<String> {
+public class Ex08TheBiggestNumber implements TaskWeek01<String> {
 
   private final int firstInput;
   private final int secondInput;

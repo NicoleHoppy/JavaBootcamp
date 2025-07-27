@@ -1,10 +1,10 @@
 package pl.javaexercises.week01.section01;
 
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 // 5. Check if a number is divisible by both 3 and 5.
 
-public class Ex05IsDivided implements Task<String> {
+public class Ex05IsDivided implements TaskWeek01<String> {
 
   private final int input;
 

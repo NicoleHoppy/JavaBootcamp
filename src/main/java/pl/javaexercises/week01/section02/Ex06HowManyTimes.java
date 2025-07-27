@@ -3,11 +3,11 @@ package pl.javaexercises.week01.section02;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 // 6. Write a program that counts how many times a given number appears in the array.
 
-public class Ex06HowManyTimes implements Task<String> {
+public class Ex06HowManyTimes implements TaskWeek01<String> {
 
   int[] table;
 

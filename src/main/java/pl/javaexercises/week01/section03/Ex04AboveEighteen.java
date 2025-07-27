@@ -1,12 +1,12 @@
 package pl.javaexercises.week01.section03;
 
-import pl.javaexercises.week01.Task;
+import pl.javaexercises.week01.TaskWeek01;
 
 import java.util.Map;
 
 // 4. Print only the people older than 18 from the name → age map.
 
-public class Ex04AboveEighteen implements Task<String> {
+public class Ex04AboveEighteen implements TaskWeek01<String> {
   Map<String, Integer> usersDetails;
 
   public Ex04AboveEighteen(Map<String, Integer> usersDetails) {
