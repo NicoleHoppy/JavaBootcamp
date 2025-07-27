@@ -23,6 +23,6 @@ public class Ex05NameOccurrenceCounter implements Task<String> {
       counts.put(name, counts.getOrDefault(name, 0) + 1);
     }
 
-    return "The names in the following list: " + names + " appears this many times: " + counts;
+    return "The names in the following list: " + names + " appears this many times: " + counts + "\n";
   }
 }
