@@ -7,13 +7,14 @@ import pl.javaexercises.week01.Task;
 
 public class Ex01ListOfNames implements Task<String> {
 
-    private final List<String> names;
+  private final List<String> names;
 
-    public Ex01ListOfNames(List<String> names) {
-        this.names = names;
-    }
+  public Ex01ListOfNames(List<String> names) {
+    this.names = names;
+  }
 
-    public String run() {
-        return "Those are names from the list: " + String.join(", ", names);
-    }
+  @Override
+  public String run() {
+    return "Those are names from the list: " + String.join(", ", names);
+  }
 }

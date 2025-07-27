@@ -13,6 +13,7 @@ public class Ex07TheAverageOfTable implements Task<String> {
     this.table = table;
   }
 
+  @Override
   public String run() {
     double sum = 0.00;
     for (double t : table) sum += t;

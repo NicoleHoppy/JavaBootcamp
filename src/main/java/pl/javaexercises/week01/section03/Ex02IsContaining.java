@@ -8,14 +8,14 @@ import java.util.List;
 
 public class Ex02IsContaining implements Task<String> {
 
-    private final List<String> names;
+  private final List<String> names;
 
-    public Ex02IsContaining(List<String> names) {
-        this.names = names;
-    }
+  public Ex02IsContaining(List<String> names) {
+    this.names = names;
+  }
 
-    @Override
-    public String run() {
-        return "Does the list contain name Anna? " + names.contains("Anna");
-    }
+  @Override
+  public String run() {
+    return "Does the list contain name Anna? " + names.contains("Anna") + "\n";
+  }
 }

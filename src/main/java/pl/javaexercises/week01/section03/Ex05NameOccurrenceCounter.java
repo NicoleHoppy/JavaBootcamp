@@ -10,18 +10,19 @@ import java.util.Map;
 
 public class Ex05NameOccurrenceCounter implements Task<String> {
 
-    List<String> names;
+  List<String> names;
 
-    public Ex05NameOccurrenceCounter(List<String> names) {
-        this.names = names;
-    }
+  public Ex05NameOccurrenceCounter(List<String> names) {
+    this.names = names;
+  }
 
-    public String run() {
+  @Override
+  public String run() {
     Map<String, Integer> counts = new HashMap<>();
-        for (String name : names) {
-            counts.put(name, counts.getOrDefault(name, 0) + 1);
-        }
-
-        return "The names in the following list: " + names + " appears this many times: " + counts.toString();
+    for (String name : names) {
+      counts.put(name, counts.getOrDefault(name, 0) + 1);
     }
+
+    return "The names in the following list: " + names + " appears this many times: " + counts;
+  }
 }
