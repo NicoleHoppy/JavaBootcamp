@@ -9,9 +9,11 @@ public class MainWeek02 {
 
     Map<TaskWeek02, List<String>> MAPTASKINPUT =
         Map.of(
-            new Ex01CharReplacer(), List.of("nobody@mail.com ###", "@somebody @nobody @anybody"),
-                new Ex02PalindromeCheck(), List.of("Kobyła ma mały bok", "cat")
-            );
+            new Ex01CharReplacer(),
+            List.of("nobody@mail.com ###", "@somebody @nobody @anybody"),
+            new Ex02PalindromeCheck(),
+            List.of("Kobyła ma mały bok", "cat"),
+            new Ex03VowelCounter(), List.of("I have a cat", "Hello world"));
 
         for (Map.Entry<TaskWeek02, List<String>> entry : MAPTASKINPUT.entrySet()){
             TaskWeek02 task = entry.getKey();
