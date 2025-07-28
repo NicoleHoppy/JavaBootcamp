@@ -15,7 +15,9 @@ public class MainWeek02 {
             List.of("Kobyła ma mały bok", "cat"),
             new Ex03VowelCounter(),
             List.of("I have a cat", "Hello world"),
-            new Ex04InitialsGenerator(), List.of("Tom Smith", "Kate Jackson"));
+            new Ex04InitialsGenerator(),
+            List.of("Tom Smith", "Kate Jackson"),
+            new Ex05CaseConverter(), List.of("programming", "HELLO"));
 
         for (Map.Entry<TaskWeek02, List<String>> entry : MAPTASKINPUT.entrySet()){
             TaskWeek02 task = entry.getKey();
