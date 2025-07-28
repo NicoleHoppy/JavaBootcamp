@@ -13,7 +13,9 @@ public class MainWeek02 {
             List.of("nobody@mail.com ###", "@somebody @nobody @anybody"),
             new Ex02PalindromeCheck(),
             List.of("Kobyła ma mały bok", "cat"),
-            new Ex03VowelCounter(), List.of("I have a cat", "Hello world"));
+            new Ex03VowelCounter(),
+            List.of("I have a cat", "Hello world"),
+            new Ex04InitialsGenerator(), List.of("Tom Smith", "Kate Jackson"));
 
         for (Map.Entry<TaskWeek02, List<String>> entry : MAPTASKINPUT.entrySet()){
             TaskWeek02 task = entry.getKey();
