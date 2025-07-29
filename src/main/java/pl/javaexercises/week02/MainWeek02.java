@@ -16,6 +16,7 @@ public class MainWeek02 {
     MAP.put(new Ex05CaseConverter(), List.of("programming", "HELLO"));
             MAP.put(new Ex06WordCounter(), List.of("There are no words", "Hello world"));
             MAP.put(new Ex07DuplicateLetterRemover(), List.of("programming", "crochet"));
+            MAP.put(new Ex08DigitWordConverter(), List.of("I have 1 cat and 3 dogs", "My mum has 4 cats"));
 
         for (Map.Entry<TaskWeek02, List<String>> entry : MAP.entrySet()){
             TaskWeek02 task = entry.getKey();
