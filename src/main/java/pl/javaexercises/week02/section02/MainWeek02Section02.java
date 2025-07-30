@@ -14,6 +14,7 @@ public class MainWeek02Section02 {
     MAP.put(
         new Ex01DescriptionValidator(),
         List.of("Update login page design", " Fix user login bug"));
+    MAP.put(new Ex02EmailValidator(), List.of("email@mail.com", "somebodymail.com"));
 
         for (Map.Entry<TaskWeek02<String>, List<String>> entry : MAP.entrySet()) {
             TaskWeek02<String> task = entry.getKey();
