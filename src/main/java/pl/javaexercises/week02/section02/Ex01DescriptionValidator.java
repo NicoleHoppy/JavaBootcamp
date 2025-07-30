@@ -2,7 +2,7 @@ package pl.javaexercises.week02.section02;
 
 import pl.javaexercises.week02.TaskWeek02;
 
-//Write a method that validates a task description. A valid description:
+//1. Write a method that validates a task description. A valid description:
 //
 //has 5 to 100 characters,
 //

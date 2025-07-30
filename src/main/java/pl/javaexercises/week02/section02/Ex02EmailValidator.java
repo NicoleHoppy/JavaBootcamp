@@ -2,6 +2,8 @@ package pl.javaexercises.week02.section02;
 
 import pl.javaexercises.week02.TaskWeek02;
 
+// 2. Validate an email address
+
 public class Ex02EmailValidator implements TaskWeek02<String> {
 
     public String run(String name) {
