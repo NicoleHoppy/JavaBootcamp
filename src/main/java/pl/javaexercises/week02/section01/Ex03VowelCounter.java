@@ -1,4 +1,6 @@
-package pl.javaexercises.week02;
+package pl.javaexercises.week02.section01;
+
+import pl.javaexercises.week02.TaskWeek02;
 
 import java.util.HashSet;
 import java.util.List;

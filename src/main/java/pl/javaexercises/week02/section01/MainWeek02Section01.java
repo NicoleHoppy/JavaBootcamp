@@ -1,10 +1,12 @@
-package pl.javaexercises.week02;
+package pl.javaexercises.week02.section01;
+
+import pl.javaexercises.week02.TaskWeek02;
 
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MainWeek02 {
+public class MainWeek02Section01 {
 
   public static void main(String[] args) {
 

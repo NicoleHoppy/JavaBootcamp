@@ -1,7 +1,9 @@
-package pl.javaexercises.week02;
+package pl.javaexercises.week02.section01;
 
 // 2. Write a method that counts how many vowels (a, e, i, o, u, y) are present in the given String,
 // regardless of case.
+
+import pl.javaexercises.week02.TaskWeek02;
 
 public class Ex02PalindromeCheck implements TaskWeek02<String> {
 
