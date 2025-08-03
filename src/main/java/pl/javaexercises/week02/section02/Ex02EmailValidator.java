@@ -6,7 +6,8 @@ import pl.javaexercises.week02.TaskWeek02;
 
 public class Ex02EmailValidator implements TaskWeek02<String> {
 
-    public String run(String name) {
-        return String.valueOf(name.matches("[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}"));
-    }
+  @Override
+  public String run(String name) {
+    return String.valueOf(name.matches("[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}"));
+  }
 }
