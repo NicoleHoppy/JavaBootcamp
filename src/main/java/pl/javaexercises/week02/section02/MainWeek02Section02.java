@@ -17,6 +17,8 @@ public class MainWeek02Section02 {
     MAP.put(new Ex02EmailValidator(), List.of("email@mail.com", "somebodymail.com"));
     MAP.put(new Ex03PasswordValidator(), List.of("P@ssword123", "mybirthdayday0101"));
     MAP.put(new Ex04StringParser(), List.of("John:Smith:38", "Steve:Norris25"));
+    MAP.put(new Ex05WordCounterInDescription(), List.of(" Design a text parser that validates input format.", "Exercise now!"));
+
 
         for (Map.Entry<TaskWeek02<String>, List<String>> entry : MAP.entrySet()) {
             TaskWeek02<String> task = entry.getKey();
