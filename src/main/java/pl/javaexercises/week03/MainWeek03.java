@@ -14,4 +14,10 @@ public class MainWeek03 {
 
         Ex01Cat cat = new Ex01Cat("Mruczek");
         cat.makeSound();
-    }}
+
+    out.print(Ex02Guitar.class.getSimpleName() + ": ");
+
+    Ex02Guitar guitar = new Ex02Guitar();
+    guitar.play();
+  }
+}
