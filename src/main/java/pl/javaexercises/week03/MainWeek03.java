@@ -19,5 +19,9 @@ public class MainWeek03 {
 
     Ex02Guitar guitar = new Ex02Guitar();
     guitar.play();
+
+    out.print(Ex03Car.class.getSimpleName() + ": ");
+    Ex03Car car = new Ex03Car(60);
+    car.move();
   }
 }
