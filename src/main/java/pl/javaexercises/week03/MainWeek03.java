@@ -31,5 +31,13 @@ public class MainWeek03 {
     out.print(Ex04Rectangle.class.getSimpleName() + ": ");
     Ex04Rectangle rectangle = new Ex04Rectangle(2, 6);
     rectangle.area();
+
+    out.print(Ex05CreditCardPayment.class.getSimpleName()+ ": ");
+    Ex05CreditCardPayment creditCard = new Ex05CreditCardPayment();
+    creditCard.processPayment();
+
+    out.print(Ex05PaypalPayment.class.getSimpleName() + ": ");
+    Ex05PaypalPayment paypalPayment = new Ex05PaypalPayment();
+    paypalPayment.processPayment();
   }
 }
