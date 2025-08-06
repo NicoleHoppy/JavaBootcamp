@@ -23,5 +23,13 @@ public class MainWeek03 {
     out.print(Ex03Car.class.getSimpleName() + ": ");
     Ex03Car car = new Ex03Car(60);
     car.move();
+
+    out.print(Ex04Circle.class.getSimpleName() + ": ");
+    Ex04Circle circle = new Ex04Circle(2);
+    circle.area();
+
+    out.print(Ex04Rectangle.class.getSimpleName() + ": ");
+    Ex04Rectangle rectangle = new Ex04Rectangle(2, 6);
+    rectangle.area();
   }
 }
