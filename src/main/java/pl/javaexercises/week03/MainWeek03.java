@@ -1,5 +1,8 @@
 package pl.javaexercises.week03;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static java.lang.System.*;
 
 public class MainWeek03 {
@@ -39,5 +42,22 @@ public class MainWeek03 {
     out.print(Ex05PaypalPayment.class.getSimpleName() + ": ");
     Ex05PaypalPayment paypalPayment = new Ex05PaypalPayment();
     paypalPayment.processPayment();
+
+    out.print(Ex06Animal.class.getSimpleName() + ": ");
+
+    List<Ex06Animal> animals = new ArrayList<>();
+
+    animals.add(new Ex06Cat());
+    animals.add(new Ex06Cat());
+    animals.add(new Ex06Dog());
+    animals.add(new Ex06Dog());
+    animals.add(new Ex06Dog());
+    animals.add(new Ex06Cat());
+    animals.add(new Ex06Cat());
+
+    for (Ex06Animal animal : animals){
+        animal.makeSound();
+    }
+
   }
 }
