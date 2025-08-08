@@ -1,4 +1,4 @@
-package pl.javaexercises.week03;
+package pl.javaexercises.week02.section03;
 
 // 3. Create a class Vehicle with a speed field and a method move(), then a class Car inheriting
 // from Vehicle and overriding move() to display the speed.

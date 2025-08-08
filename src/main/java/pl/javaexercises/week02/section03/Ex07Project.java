@@ -1,4 +1,4 @@
-package pl.javaexercises.week03;
+package pl.javaexercises.week02.section03;
 
 import java.util.ArrayList;
 import java.util.List;

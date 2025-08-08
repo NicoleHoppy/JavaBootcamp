@@ -1,4 +1,4 @@
-package pl.javaexercises.week03;
+package pl.javaexercises.week02.section03;
 
 public class Ex07Task extends Ex07Item implements Ex07Completable {
   public String dueDate;

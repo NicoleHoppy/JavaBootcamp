@@ -1,4 +1,4 @@
-package pl.javaexercises.week03;
+package pl.javaexercises.week02.section03;
 
 public class Ex03Car extends Ex03Vehicle {
 

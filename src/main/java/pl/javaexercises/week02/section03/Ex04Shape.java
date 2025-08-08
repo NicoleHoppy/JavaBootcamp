@@ -1,4 +1,4 @@
-package pl.javaexercises.week03;
+package pl.javaexercises.week02.section03;
 
 // 4. Create an interface Shape with the method area(). Implement Circle and Rectangle calculating
 // their respective surface areas.

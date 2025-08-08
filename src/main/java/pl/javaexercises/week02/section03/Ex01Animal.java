@@ -1,4 +1,4 @@
-package pl.javaexercises.week03;
+package pl.javaexercises.week02.section03;
 
 // 1. Create a class Animal with the method makeSound(), then create classes Dog and Cat that
 // inherit from Animal and override makeSound().
