@@ -16,22 +16,22 @@ import java.util.List;
 // Create an interface Completable with the method complete(), which Task will implement.
 
 public class Ex07Project {
-    public String name;
-    public List<Ex07Task> tasks;
+  public String name;
+  public List<Ex07Task> tasks;
 
-    public Ex07Project(String name) {
-        this.name = name;
-        this.tasks = new ArrayList<>();
-    }
+  public Ex07Project(String name) {
+    this.name = name;
+    this.tasks = new ArrayList<>();
+  }
 
-    public void addTask(Ex07Task task) {
-        tasks.add(task);
-    }
+  public void addTask(Ex07Task task) {
+    tasks.add(task);
+  }
 
-    public void showTasks() {
-        System.out.println("Project: " + name);
-        for (Ex07Task t : tasks) {
-            System.out.println(" - " + t);
-        }
+  public void showTasks() {
+    System.out.println("Project: " + name);
+    for (Ex07Task t : tasks) {
+      System.out.println(" - " + t);
     }
+  }
 }

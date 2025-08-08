@@ -1,14 +1,13 @@
 package pl.javaexercises.week03;
 
-public class Ex01Dog extends Ex01Animal{
+public class Ex01Dog extends Ex01Animal {
 
-    public Ex01Dog(String name) {
-        super(name);
-    }
+  public Ex01Dog(String name) {
+    super(name);
+  }
 
-    @Override
-    public void makeSound() {
+  @Override
+  public void makeSound() {
     System.out.println(name + " says Woof!");
-    }
-
+  }
 }
