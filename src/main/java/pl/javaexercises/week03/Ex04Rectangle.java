@@ -11,8 +11,7 @@ public class Ex04Rectangle implements Ex04Shape {
     }
 
     @Override
-    public void area() {
-        double result = width*height;
-        System.out.println("The area of the rectangle: " + result);
+    public double area() {
+        return width*height;
     }
 }

@@ -9,8 +9,7 @@ public class Ex04Circle implements Ex04Shape {
     }
 
     @Override
-    public void area() {
-        double result = Math.PI* radius* radius;
-        System.out.println("The area of the circle: " + result);
+    public double area() {
+        return Math.PI* radius* radius;
     }
 }
