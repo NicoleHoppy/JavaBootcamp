@@ -58,6 +58,17 @@ public class MainWeek03 {
     for (Ex06Animal animal : animals){
         animal.makeSound();
     }
+    out.println("\n");
+    out.print(Ex07Project.class.getSimpleName() + ": ");
+    Ex07Project project = new Ex07Project("Java OOP Project");
+    Ex07Task task1 = new Ex07Task("Design class diagrams", "2024-06-01", "In progress");
+    Ex07Task task2 = new Ex07Task("Implement features", "2024-06-10", "Not started");
+    project.addTask(task1);
+    project.addTask(task2);
+    project.showTasks();
+
+    task1.complete();
+    project.showTasks();
 
   }
 }
