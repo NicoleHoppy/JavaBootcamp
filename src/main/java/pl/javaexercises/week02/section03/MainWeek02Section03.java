@@ -2,7 +2,7 @@ package pl.javaexercises.week02.section03;
 
 import java.util.List;
 
-public class MainWeek03 {
+public class MainWeek02Section03 {
   public static void main(String[] args) {
     runAnimalDemo();
     runPlayableDemo();
