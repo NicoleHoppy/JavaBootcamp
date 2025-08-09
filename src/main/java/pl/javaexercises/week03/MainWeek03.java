@@ -1,6 +1,9 @@
 package pl.javaexercises.week03;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class MainWeek03 {
@@ -16,5 +19,15 @@ public class MainWeek03 {
         for (Ex01BookComparer b : books) {
             System.out.println(b);
         }
-    }
+
+    List<Ex02Student> students = new ArrayList<>();
+        students.add(new Ex02Student("Tom Smith", 4.22));
+        students.add(new Ex02Student("Kate Williams", 3.98));
+        students.add(new Ex02Student("Peter Johnson", 4.82));
+        students.add(new Ex02Student("Sam Potter", 3.59));
+
+        Collections.sort(students);
+
+        System.out.println(Ex02Student.class.getSimpleName() + ": "+ students);
+  }
 }
