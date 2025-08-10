@@ -2,6 +2,7 @@ package pl.javaexercises.week03;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -28,6 +29,24 @@ public class MainWeek03 {
 
         Collections.sort(students);
 
-        System.out.println(Ex02Student.class.getSimpleName() + ": "+ students);
+        System.out.print(Ex02Student.class.getSimpleName() + ": ");
+
+        for (Ex02Student s :students) {
+      System.out.print(s);
+        }
+
+        List<Ex03Student> newStudents = new ArrayList<>();
+        newStudents.add(new Ex03Student("Mary Benn", 4.79));
+        newStudents.add(new Ex03Student("John Bale", 4.79));
+        newStudents.add(new Ex03Student("Sam Garry", 4.79));
+        newStudents.add(new Ex03Student("Martha Smith", 4.79));
+
+        newStudents.sort(Comparator.comparing(Ex03Student::getName));
+
+    System.out.print("\n" + Ex03Student.class.getSimpleName() + ": ");
+
+        for (Ex03Student s :newStudents) {
+      System.out.print(s);
+    }
   }
 }
