@@ -58,5 +58,12 @@ public class MainWeek03 {
                     thenComparing(Ex05Product::getRating)
                     .reversed())
             .forEach(System.out::print);
-  }
+
+    System.out.print("\n" + Ex06IntegersSorter.class.getSimpleName() + ": ");
+
+    Ex06IntegersSorter integersSorter = new Ex06IntegersSorter(new int[]{7, 4, 8, 2, 1 });
+    Arrays.sort(integersSorter.getInput());
+
+    System.out.println(integersSorter);
+    }
 }
