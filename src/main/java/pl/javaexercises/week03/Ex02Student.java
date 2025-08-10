@@ -15,13 +15,11 @@ public class Ex02Student implements Comparable<Ex02Student> {
         return Double.compare(this.averageGrade, other.averageGrade);
     }
 
-    public String getName() {
-        return name;
-    }
-
     @Override
     public String toString() {
-        return "name: " + name +
-                ", averageGrade: " + averageGrade;
+        return "{" +
+                "name = '" + name + '\'' +
+                ", averageGrade = " + averageGrade +
+                "} ";
     }
 }
