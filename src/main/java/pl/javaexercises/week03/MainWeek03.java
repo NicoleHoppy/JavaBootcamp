@@ -36,5 +36,15 @@ public class MainWeek03 {
         .sorted(Comparator.comparing(Ex03Student::getName))
         .forEach(System.out::print);
 
+    System.out.print("\n" + Ex04Employee.class.getSimpleName() + ": ");
+
+    HashSet<Ex04Employee> employees = new HashSet<>(Arrays.asList(
+            new Ex04Employee(201, "John Smith", 3),
+            new Ex04Employee(203, "Emily Johnson", 5),
+            new Ex04Employee(203, "Michael Brown", 2),
+            new Ex04Employee(204, "Sarah Davis", 4)
+    ));
+
+    employees.forEach(System.out::print);
   }
 }
