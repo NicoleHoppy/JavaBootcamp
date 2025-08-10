@@ -46,5 +46,17 @@ public class MainWeek03 {
     ));
 
     employees.forEach(System.out::print);
+
+    System.out.print("\n" + Ex05Product.class.getSimpleName() + ": ");
+
+    HashSet<Ex05Product> products =
+        new HashSet<>(Arrays.asList(new Ex05Product("Phone", 999.99, 8), new Ex05Product("Tablet", 499.99, 5),
+                new Ex05Product("Laptop", 499.99, 7)));
+
+    products.stream()
+            .sorted(Comparator.comparingDouble(Ex05Product::getPrice).
+                    thenComparing(Ex05Product::getRating)
+                    .reversed())
+            .forEach(System.out::print);
   }
 }
