@@ -64,6 +64,12 @@ public class MainWeek03 {
     Ex06IntegersSorter integersSorter = new Ex06IntegersSorter(new int[]{7, 4, 8, 2, 1 });
     Arrays.sort(integersSorter.getInput());
 
-    System.out.println(integersSorter);
+    System.out.print(integersSorter);
+
+    System.out.print("\n" + Ex07Person.class.getSimpleName() + ": ");
+
+    Stream.of(new Ex07Person("Ann", 25),
+            new Ex07Person("Mary", 21),
+            new Ex07Person("Peter", 23)).sorted(Comparator.comparingInt(Ex07Person::getAge)).forEach(System.out::print);
     }
 }
