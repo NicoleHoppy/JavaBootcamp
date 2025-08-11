@@ -1,35 +1,34 @@
 package pl.javaexercises.week03;
 
-public class Ex05Product implements Comparable<Ex05Product>{
-    String name;
-    double price;
-    double rating;
+// 5. Create a class Product with fields: name, price, rating. Sort products first by price
+// ascending, and if prices are equal, by rating descending.
 
-    public Ex05Product(String name, double price, double rating) {
-        this.name = name;
-        this.price = price;
-        this.rating = rating;
-    }
+public class Ex05Product implements Comparable<Ex05Product> {
+  String name;
+  double price;
+  double rating;
 
-    public double getPrice() {
-        return price;
-    }
+  public Ex05Product(String name, double price, double rating) {
+    this.name = name;
+    this.price = price;
+    this.rating = rating;
+  }
 
-    public double getRating() {
-        return rating;
-    }
+  public double getPrice() {
+    return price;
+  }
 
-    @Override
-    public int compareTo(Ex05Product ex05Product) {
-        return Double.compare(this.price, ex05Product.price);
-    }
+  public double getRating() {
+    return rating;
+  }
 
-    @Override
-    public String toString() {
-        return "{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                ", rating=" + rating +
-                "} ";
-    }
+  @Override
+  public int compareTo(Ex05Product ex05Product) {
+    return Double.compare(this.price, ex05Product.price);
+  }
+
+  @Override
+  public String toString() {
+    return "{" + "name='" + name + '\'' + ", price=" + price + ", rating=" + rating + "} ";
+  }
 }
