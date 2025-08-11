@@ -71,5 +71,9 @@ public class MainWeek03 {
     Stream.of(new Ex07Person("Ann", 25),
             new Ex07Person("Mary", 21),
             new Ex07Person("Peter", 23)).sorted(Comparator.comparingInt(Ex07Person::getAge)).forEach(System.out::print);
+
+    System.out.print("\n" + Ex08NamesSorter.class.getSimpleName() + ": ");
+
+    Stream.of(new Ex08NamesSorter("Bob"), new Ex08NamesSorter("Ann"), new Ex08NamesSorter("Tom"), new Ex08NamesSorter("Barry"), new Ex08NamesSorter("Sam")).sorted(Comparator.comparing(Ex08NamesSorter::getName)).forEach(System.out::print);
     }
 }
