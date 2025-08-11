@@ -79,12 +79,14 @@ public class MainWeek03Section01 {
   }
 
   private static void printSection(Class<?> clazz, Object data) {
-    System.out.print(clazz.getSimpleName() + ": ");
+    System.out.println(clazz.getSimpleName() + ": ");
 
     if (data instanceof Stream<?> stream) {
       stream.forEach(System.out::print);
+
     } else if (data instanceof Collection<?> collection) {
-      collection.forEach(System.out::print);
+      collection.forEach(System.out::println);
+
     } else {
       System.out.print(data);
     }

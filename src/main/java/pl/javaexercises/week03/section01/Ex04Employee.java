@@ -30,6 +30,6 @@ public class Ex04Employee {
 
   @Override
   public String toString() {
-    return " {" + "name = '" + name + '\'' + ", position = " + position + "} ";
+    return String.format("  - %-15s | position: %d", name, position);
   }
 }

@@ -19,6 +19,6 @@ public class Ex02Student implements Comparable<Ex02Student> {
 
   @Override
   public String toString() {
-    return "{" + "name = '" + name + '\'' + ", averageGrade = " + averageGrade + "} ";
+    return String.format("  - %-15s | avg: %.2f%n", name, averageGrade);
   }
 }

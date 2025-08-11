@@ -26,6 +26,6 @@ public class Ex07Person implements Comparator<Ex07Person> {
 
   @Override
   public String toString() {
-    return "{" + "name = '" + name + '\'' + ", age = " + age + "} ";
+    return String.format("  - %-15s | age: %d%n", name, age);
   }
 }

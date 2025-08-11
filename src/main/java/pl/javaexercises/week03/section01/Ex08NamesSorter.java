@@ -22,6 +22,6 @@ public class Ex08NamesSorter implements Comparator<Ex08NamesSorter> {
 
   @Override
   public String toString() {
-    return name + ", ";
+    return "  " + name + " ";
   }
 }

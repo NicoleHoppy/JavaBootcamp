@@ -31,6 +31,6 @@ public class Ex01BookComparer {
 
   @Override
   public String toString() {
-    return title + " by " + author;
+    return String.format("  - %-15s | by %-20s", title, author);
   }
 }

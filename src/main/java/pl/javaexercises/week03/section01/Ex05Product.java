@@ -29,6 +29,6 @@ public class Ex05Product implements Comparable<Ex05Product> {
 
   @Override
   public String toString() {
-    return "{" + "name='" + name + '\'' + ", price=" + price + ", rating=" + rating + "} ";
+    return String.format("  - %-15s | price: %.2f | rating: %.2f%n", name, price, rating);
   }
 }

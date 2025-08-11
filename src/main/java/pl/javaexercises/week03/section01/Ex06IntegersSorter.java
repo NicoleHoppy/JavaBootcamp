@@ -18,6 +18,6 @@ public class Ex06IntegersSorter {
 
   @Override
   public String toString() {
-    return Arrays.toString(input);
+    return "  " + Arrays.toString(input) + "\n";
   }
 }
