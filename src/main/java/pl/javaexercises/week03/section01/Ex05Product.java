@@ -1,4 +1,4 @@
-package pl.javaexercises.week03;
+package pl.javaexercises.week03.section01;
 
 // 5. Create a class Product with fields: name, price, rating. Sort products first by price
 // ascending, and if prices are equal, by rating descending.

@@ -1,4 +1,4 @@
-package pl.javaexercises.week03;
+package pl.javaexercises.week03.section01;
 
 // 4. Create a class Employee with fields: id, name, position. Employees are considered equal if
 // they have the same id. Implement equals() and hashCode() so that a HashSet does not add

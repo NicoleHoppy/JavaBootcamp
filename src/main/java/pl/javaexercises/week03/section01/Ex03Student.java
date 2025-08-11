@@ -1,4 +1,4 @@
-package pl.javaexercises.week03;
+package pl.javaexercises.week03.section01;
 
 // 3. Instead of sorting by grades, sort students alphabetically by name using a Comparator.
 

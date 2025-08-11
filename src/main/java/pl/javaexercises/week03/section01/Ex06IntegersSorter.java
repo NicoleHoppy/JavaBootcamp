@@ -1,4 +1,4 @@
-package pl.javaexercises.week03;
+package pl.javaexercises.week03.section01;
 
 import java.util.Arrays;
 

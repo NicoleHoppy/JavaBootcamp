@@ -1,4 +1,4 @@
-package pl.javaexercises.week03;
+package pl.javaexercises.week03.section01;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Stream;
 
-public class MainWeek03 {
+public class MainWeek03Section01 {
   public static void main(String[] args) {
 
     System.out.println(Ex01BookComparer.class.getSimpleName() + ": ");

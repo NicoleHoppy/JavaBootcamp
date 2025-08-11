@@ -1,4 +1,4 @@
-package pl.javaexercises.week03;
+package pl.javaexercises.week03.section01;
 
 // 2. Create a class Student with fields name and averageGrade. Implement the
 // Comparable<Student> interface to sort students in descending order by averageGrade. Use

@@ -1,4 +1,4 @@
-package pl.javaexercises.week03;
+package pl.javaexercises.week03.section01;
 
 // 1. Create a class Book with fields: title, author, year. Two books are considered equal if they
 // have the same title and author. Implement equals() and hashCode(). Then add objects to a HashSet
