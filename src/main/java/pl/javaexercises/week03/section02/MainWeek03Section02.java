@@ -35,5 +35,9 @@ public class MainWeek03Section02 {
         boolean numbersGreaterThan100 = Stream.of(10, 20, 99, 500).anyMatch(n -> n > 100);
         System.out.println("Ex06: " + numbersGreaterThan100);
 
+//    7. Calculate the sum of all even numbers in the list.
+        int sumOfEvenNumbers = Stream.of(2, 3, 4, 5, 6).filter(e -> e % 2 == 0).mapToInt(Integer::intValue).sum();
+        System.out.println("Ex07: " + sumOfEvenNumbers);
+
     }
 }
