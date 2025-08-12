@@ -1,6 +1,10 @@
 package pl.javaexercises.week03.section02;
 
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Stream;
+
+import static java.util.stream.Collectors.groupingBy;
 
 public class MainWeek03Section02 {
     public static void main(String[] args){
@@ -8,6 +12,10 @@ public class MainWeek03Section02 {
 //    1. Count how many elements in the list are greater than 10.
         long numbersGreaterThanTen = Stream.of(5, 15, 20, 8, 11).filter(n -> n > 10).count();
     System.out.println("Ex01: " + numbersGreaterThanTen);
+
+//    2. Print all words starting with the letter from a list of strings.
+        Map<Character, List<String>> words = Stream.of("Apple", "Banana", "Avocado", "Cherry").collect(groupingBy(word -> word.charAt(0)));
+        System.out.println("Ex02: " + words);
 
     }
 }
