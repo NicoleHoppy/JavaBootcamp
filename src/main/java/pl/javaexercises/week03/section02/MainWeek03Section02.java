@@ -43,5 +43,9 @@ public class MainWeek03Section02 {
         List<Integer> lengthOfWords = Stream.of("Hi", "Stream", "API").map(String::length).toList();
         System.out.println("Ex08: "+ lengthOfWords);
 
+//    9. Print only unique numbers from a list with duplicates.
+        List<Integer> onlyUnique = Stream.of(1, 2, 2, 3, 4, 4).distinct().toList();
+        System.out.println("Ex09: " + onlyUnique);
+        
     }
 }
