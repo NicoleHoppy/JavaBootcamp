@@ -21,5 +21,9 @@ public class MainWeek03Section02 {
         List<Integer> listOfSquares = Stream.of(1, 2, 3, 4).map(n -> n*n).toList();
         System.out.println("Ex03: " + listOfSquares);
 
+//    4. Sort a list of names alphabetically.
+        List<String> namesAlphabetically = Stream.of("Tom", "Anna", "John", "Zoe").sorted().toList();
+        System.out.println("Ex04: " + namesAlphabetically);
+
     }
 }
