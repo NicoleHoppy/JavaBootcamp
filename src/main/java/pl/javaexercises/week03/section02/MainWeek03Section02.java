@@ -46,6 +46,9 @@ public class MainWeek03Section02 {
 //    9. Print only unique numbers from a list with duplicates.
         List<Integer> onlyUnique = Stream.of(1, 2, 2, 3, 4, 4).distinct().toList();
         System.out.println("Ex09: " + onlyUnique);
-        
+
+//    10. Print only the first 3 elements from a list of numbers greater than 5.
+        List<Integer> top3GreaterThan5 = Stream.of(3, 11, 8, 10, 1, 7).filter(t -> t > 5).limit(3).toList();
+        System.out.println("Ex10: " + top3GreaterThan5);
     }
 }
