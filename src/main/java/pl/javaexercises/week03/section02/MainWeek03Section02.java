@@ -1,7 +1,9 @@
 package pl.javaexercises.week03.section02;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.groupingBy;
@@ -24,6 +26,10 @@ public class MainWeek03Section02 {
 //    4. Sort a list of names alphabetically.
         List<String> namesAlphabetically = Stream.of("Tom", "Anna", "John", "Zoe").sorted().toList();
         System.out.println("Ex04: " + namesAlphabetically);
+
+//    5. Find the longest word in a list of words (Optional).
+        Optional<String> theLongestWords = Stream.of("Java", "Concurrency", "Stream").max(Comparator.comparing(String::length));
+        System.out.println("Ex05: " + theLongestWords);
 
     }
 }
