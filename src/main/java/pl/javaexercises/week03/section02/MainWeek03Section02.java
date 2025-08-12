@@ -17,5 +17,9 @@ public class MainWeek03Section02 {
         Map<Character, List<String>> words = Stream.of("Apple", "Banana", "Avocado", "Cherry").collect(groupingBy(word -> word.charAt(0)));
         System.out.println("Ex02: " + words);
 
+//    3. Create a new list containing the squares of numbers from the list.
+        List<Integer> listOfSquares = Stream.of(1, 2, 3, 4).map(n -> n*n).toList();
+        System.out.println("Ex03: " + listOfSquares);
+
     }
 }
