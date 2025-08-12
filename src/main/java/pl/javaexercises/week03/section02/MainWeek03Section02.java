@@ -31,5 +31,9 @@ public class MainWeek03Section02 {
         Optional<String> theLongestWords = Stream.of("Java", "Concurrency", "Stream").max(Comparator.comparing(String::length));
         System.out.println("Ex05: " + theLongestWords);
 
+//        6. Check if there is any number greater than 100 in the list.
+        boolean numbersGreaterThan100 = Stream.of(10, 20, 99, 500).anyMatch(n -> n > 100);
+        System.out.println("Ex06: " + numbersGreaterThan100);
+
     }
 }
