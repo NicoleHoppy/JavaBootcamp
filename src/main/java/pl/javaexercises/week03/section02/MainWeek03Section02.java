@@ -39,5 +39,9 @@ public class MainWeek03Section02 {
         int sumOfEvenNumbers = Stream.of(2, 3, 4, 5, 6).filter(e -> e % 2 == 0).mapToInt(Integer::intValue).sum();
         System.out.println("Ex07: " + sumOfEvenNumbers);
 
+//    8. Transform a list of words into a list of the lengths of those words.
+        List<Integer> lengthOfWords = Stream.of("Hi", "Stream", "API").map(String::length).toList();
+        System.out.println("Ex08: "+ lengthOfWords);
+
     }
 }
