@@ -2,7 +2,7 @@ package pl.javaexercises.week03.section03;
 
 import java.time.LocalDate;
 
-public class Task {
+public class Ex01Task {
     String title;
     LocalDate dueDate;
 
@@ -13,9 +13,9 @@ public class Task {
                 ", dueDate = " + dueDate;
     }
 
-    public Task(String title, LocalDate dueDate) throws InvalidTaskException {
-        if (title == null || title.isBlank()) throw new InvalidTaskException("Title cannot be empty");
-        if (dueDate.isBefore(LocalDate.now())) throw new InvalidTaskException("Date cannot be in the past");
+    public Ex01Task(String title, LocalDate dueDate) throws Ex01InvalidTaskException {
+        if (title == null || title.isBlank()) throw new Ex01InvalidTaskException("Title cannot be empty");
+        if (dueDate.isBefore(LocalDate.now())) throw new Ex01InvalidTaskException("Date cannot be in the past");
 
         this.title = title;
         this.dueDate = dueDate;
