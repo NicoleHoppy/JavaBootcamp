@@ -1,5 +1,5 @@
 package pl.javaexercises.week04;
 
-public interface LoggerService {
+public interface Ex06LoggerService {
     void log(String message);
 }
