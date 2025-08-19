@@ -7,5 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class Ex01CalculatorTest {
 
   @Test
-  public void addTest() {assertEquals(3, Ex01Calculator.add(1, 2));}
+  public void addTest() {
+    assertEquals(3, Ex01Calculator.add(1, 2));
+  }
 }

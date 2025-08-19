@@ -8,13 +8,13 @@ class Ex10TaskTest {
 
   @Test
   void shouldChangeStatusFromActiveToComplete() {
-    //given
+    // given
     Ex10Task task = new Ex10Task();
-    //then
+    // then
     assertEquals(Ex10TaskStatus.ACTIVE, task.getStatus());
-    //when
+    // when
     task.complete();
-    //then
+    // then
     assertEquals(Ex10TaskStatus.COMPLETED, task.getStatus());
   }
 }

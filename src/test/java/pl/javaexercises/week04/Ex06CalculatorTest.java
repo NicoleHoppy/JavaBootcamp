@@ -10,7 +10,8 @@ class Ex06CalculatorTest {
   @Test
   void shouldLogResult() {
     Ex06LoggerService loggerService = mock(Ex06LoggerService.class);
-  Ex06Calculator calculator = new Ex06Calculator(loggerService);
-  calculator.add(3, 4);
-  verify(loggerService).log("Added: 7");}
+    Ex06Calculator calculator = new Ex06Calculator(loggerService);
+    calculator.add(3, 4);
+    verify(loggerService).log("Added: 7");
+  }
 }

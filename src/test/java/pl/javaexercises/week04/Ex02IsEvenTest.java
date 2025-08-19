@@ -8,8 +8,12 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class Ex02IsEvenTest {
 
   @Test
-  void testIsEvenWithEvenNumbers() {assertTrue(Ex02IsEven.isEven(4));}
+  void testIsEvenWithEvenNumbers() {
+    assertTrue(Ex02IsEven.isEven(4));
+  }
 
   @Test
-  void testIsOddWithOddNumbers() {assertFalse(Ex02IsEven.isEven(5));}
+  void testIsOddWithOddNumbers() {
+    assertFalse(Ex02IsEven.isEven(5));
+  }
 }

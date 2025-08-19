@@ -22,7 +22,5 @@ class Ex08UserServiceTest {
     assertThrows(IllegalArgumentException.class, () -> userService.deleteUser(userId));
 
     verify(userRepository, times(1)).deleteById(userId);
-
-      }
-    }
-
+  }
+}
