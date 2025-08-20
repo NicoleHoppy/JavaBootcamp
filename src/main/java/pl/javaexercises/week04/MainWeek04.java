@@ -3,51 +3,56 @@ package pl.javaexercises.week04;
 import java.util.List;
 
 public class MainWeek04 {
-    public static void main(String[] args) {
 
-    System.out.println(Ex01Calculator.class.getSimpleName() + ": 2 + 3 = " + Ex01Calculator.add(2, 3));
-    System.out.println(Ex02IsEven.class.getSimpleName() + ": Is 4 even? " + Ex02IsEven.isEven(4));
-    System.out.println(Ex03StringReverser.class.getSimpleName() + ": Reverse of 'Hello' = " + Ex03StringReverser.reverse("Hello"));
-    System.out.println(Ex04IsEmpty.class.getSimpleName() + ": Is empty (''): " + Ex04IsEmpty.isEmpty(""));
-    System.out.println(Ex05Factorial.class.getSimpleName() + ": Factorial of 5 = " + Ex05Factorial.factorial(5));
-    Ex06LoggerService loggerService = new Ex06ConsoleLoggerService();
-    Ex06Calculator calculator = new Ex06Calculator(loggerService);
+  public static void printResult(Class<?> clazz, String message) {
+    System.out.println(clazz.getSimpleName() + ": " + message);
+  }
+
+  public static void main(String[] args) {
+
+    printResult(Ex01Calculator.class, "2 + 3 = " + Ex01Calculator.add(2, 3));
+    printResult(Ex02IsEven.class, "Is 4 even? " + Ex02IsEven.isEven(4));
+    printResult(Ex03StringReverser.class, "Reverse of 'Hello' = " + Ex03StringReverser.reverse("Hello"));
+    printResult(Ex04IsEmpty.class, "Is empty (''): " + Ex04IsEmpty.isEmpty(""));
+    printResult(Ex05Factorial.class, "Factorial of 5 = " + Ex05Factorial.factorial(5));
+
+    Ex06LoggerService ex06LoggerService = new Ex06ConsoleLoggerService();
+    Ex06Calculator calculator = new Ex06Calculator(ex06LoggerService);
     int result = calculator.add(5, 7);
-    System.out.println(Ex06Calculator.class.getSimpleName() + ": Final result = " + result);
-    Ex07InMemoryUserRepository inMemoryUserRepository = new Ex07InMemoryUserRepository();
-    inMemoryUserRepository.save(new Ex07User(1, "Alice"));
-    inMemoryUserRepository.save(new Ex07User(2, "Bob"));
-    Ex07UserService userService = new Ex07UserService(inMemoryUserRepository);
-    Ex07User user = userService.getUserById(2);
-    System.out.println("Found user: " + user);
-    Ex07User missing = userService.getUserById(99);
-    System.out.println("Missing user: " + missing);
-    Ex08InMemoryUserRepository memoryUserRepository = new Ex08InMemoryUserRepository();
-    memoryUserRepository.save(1L, "Mary");
-    memoryUserRepository.save(2L, "Chris");
+    printResult(Ex06LoggerService.class, "Final result = " + result);
 
-    Ex08UserService newUserService = new Ex08UserService(memoryUserRepository);
+    Ex07InMemoryUserRepository ex07InMemoryUserRepository = new Ex07InMemoryUserRepository();
+    ex07InMemoryUserRepository.save(new Ex07User(1, "Alice"));
+    ex07InMemoryUserRepository.save(new Ex07User(2, "Bob"));
+    Ex07UserService ex07UserService = new Ex07UserService(ex07InMemoryUserRepository);
+    Ex07User ex07user = ex07UserService.getUserById(2);
+    printResult(Ex07UserService.class, "Found user: " + ex07user);
+    Ex07User missing = ex07UserService.getUserById(99);
+    printResult(Ex07UserService.class, "Missing user: " + missing);
 
-    newUserService.deleteUser(1L);
-    System.out.println("User 1 deleted");
-    try{
-        newUserService.deleteUser(99L);
+    Ex08InMemoryUserRepository ex08InMemoryUserRepository = new Ex08InMemoryUserRepository();
+    ex08InMemoryUserRepository.save(1L, "Mary");
+    ex08InMemoryUserRepository.save(2L, "Chris");
+    Ex08UserService ex08UserService = new Ex08UserService(ex08InMemoryUserRepository);
+    ex08UserService.deleteUser(1L);
+    printResult(Ex08UserService.class, "User 1 deleted");
+    try {
+      ex08UserService.deleteUser(99L);
     } catch (RuntimeException e) {
-      System.out.println("Caught exception: " + e.getMessage());
+      printResult(Ex08UserService.class, "Caught exception: " + e.getMessage());
     }
 
     Ex09UserRepository ex09UserRepository = new Ex09InMemoryUserRepository();
     Ex09UserService ex09UserService = new Ex09UserService(ex09UserRepository);
 
-        List<Ex09User> ex09Users = ex09UserService.getAllUsers();
-        for (Ex09User u : ex09Users) {
-      System.out.println(u.getName());
-        }
+    List<Ex09User> ex09Users = ex09UserService.getAllUsers();
+    for (Ex09User u : ex09Users) {
+      printResult(Ex09UserService.class, u.getName());
+    }
 
-        Ex10Task task = new Ex10Task();
-    System.out.println("Task status before complete(): " + task.getStatus());
+    Ex10Task task = new Ex10Task();
+    printResult(Ex10Task.class, "Task status before complete(): " + task.getStatus());
     task.complete();
-    System.out.println("Task status after complete(): " + task.getStatus());
-
+    printResult(Ex10Task.class, "Task status after complete(): " + task.getStatus());
   }
 }
