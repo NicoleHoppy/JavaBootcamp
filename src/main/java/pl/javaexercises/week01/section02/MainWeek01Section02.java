@@ -15,6 +15,6 @@ public class MainWeek01Section02 {
             new Ex06HowManyTimes(new int[] {1, 2, 3, 4, 3, 12, 2, 2, 2}),
             new Ex07TheAverageOfTable(new double[] {1.09, 6.34, 2.45, 23.56}));
 
-    tasks.forEach(task -> System.out.println(task.run()));
+    tasks.forEach(task -> System.out.println(task.getClass().getSimpleName() + ": " + task.run()));
   }
 }
