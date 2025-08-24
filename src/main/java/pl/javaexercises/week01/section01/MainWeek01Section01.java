@@ -17,6 +17,6 @@ public class MainWeek01Section01 {
             new Ex07IsOldEnough(19),
             new Ex08TheBiggestNumber(37, 509, 88));
 
-    tasks.forEach(task -> System.out.println(task.run()));
+    tasks.forEach(task -> System.out.println(task.getClass().getSimpleName() + ": " + task.run()));
   }
 }
