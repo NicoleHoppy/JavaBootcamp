@@ -18,6 +18,6 @@ public class MainWeek01Section03 {
             new Ex07TodoTaskPrinter(
                 Map.of("Cooking", "Done", "Cleaning", "done", "Shopping", "todo")));
 
-    tasks.forEach(task -> System.out.println(task.run()));
+    tasks.forEach(task -> System.out.println(task.getClass().getSimpleName() + ": " + task.run()));
   }
 }
