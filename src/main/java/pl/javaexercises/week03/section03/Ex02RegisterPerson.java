@@ -6,10 +6,8 @@ public class Ex02RegisterPerson {
 
     @Override
     public String toString() {
-        return "Ex02RegisteredPerson{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
+        return "Ex02RegisteredPerson: name: " + name +
+                ", age: " + age;
     }
 
     public Ex02RegisterPerson(String name, int age) throws Ex02TooYoungException{
