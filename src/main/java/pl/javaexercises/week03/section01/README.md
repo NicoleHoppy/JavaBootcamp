@@ -1,3 +1,26 @@
+### Week 3 / Section 01 — Equality, Hashing & Sorting
+
+**Focus:** Understanding how objects are compared, how uniqueness is enforced in collections, and how to implement sorting using `Comparable`, `Comparator`, and utility methods.
+
+**🎯 Key exercises:**
+1. **Book equality with HashSet** → created a `Book` class (`title`, `author`, `year`) and implemented `equals()` and `hashCode()` so that two books are considered equal if they share the same title and author. Verified that duplicates are ignored in a `HashSet`.
+2. **Student sorting by grades (Comparable)** → implemented `Comparable<Student>` to sort students in descending order of average grade using `Collections.sort()`.
+3. **Student sorting by name (Comparator)** → defined a custom `Comparator<Student>` to sort students alphabetically by name.
+4. **Employee uniqueness by ID** → created an `Employee` class with `id`, `name`, and `position`. Implemented `equals()` and `hashCode()` so uniqueness is based solely on `id`, ensuring no duplicate employees are added to a `HashSet`.
+5. **Product multi-level sorting** → used a chain of comparators to sort `Product` objects first by ascending price, then by descending rating if prices are equal.
+6. **Sorting integers** → read five integers from input, stored them in an array, and sorted them with `Arrays.sort()`.
+7. **Sorting people by age** → built a `Person` class (`name`, `age`) and sorted a list of objects by ascending age using a `Comparator`.
+8. **Alphabetical string sorting** → sorted a list of names (`String`) in alphabetical order.
+
+**🏋️ Skills demonstrated:**
+- Implementing **`equals()` and `hashCode()`** correctly to ensure consistent object equality and uniqueness in sets.
+- Using the **Comparable interface** for natural ordering of objects.
+- Applying **Comparator** for custom and multi-level sorting logic.
+- Sorting both **primitive types** (arrays) and **objects** (lists).
+- Understanding the role of **collections (`HashSet`, `List`)** in managing data with uniqueness and order.
+
+**💻 Terminal output:**
+
 ```
 Ex01BookComparer: 
   - Harry Potter    | by J.K. Rowling        
