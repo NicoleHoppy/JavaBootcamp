@@ -1,4 +1,30 @@
-Terminal output:
+### Week 2 / Section 03 — Object-Oriented Programming & Interfaces
+
+**Focus:** Practicing object-oriented principles — inheritance, polymorphism, abstraction, and interfaces.  
+This section demonstrates how to design class hierarchies, implement contracts with interfaces, and build reusable abstractions.
+
+**🎯 Key exercises:**
+1. **Class inheritance** → created an `Animal` superclass with a `makeSound()` method, then extended it with `Dog` and `Cat` classes overriding the method.
+2. **Interfaces** → defined a `Playable` interface with `play()` and implemented it in `Guitar`, printing `"Guitar is playing"`.
+3. **Inheritance with state** → built a `Vehicle` class with `speed` and a `move()` method, then created a `Car` subclass overriding `move()` to display current speed.
+4. **Polymorphic shapes** → introduced a `Shape` interface with `area()`, then implemented `Circle` and `Rectangle` to compute surface areas.
+5. **Abstraction with payments** → designed an abstract `Payment` class with `processPayment()`, extended by `CreditCardPayment` and `PaypalPayment`.
+6. **Polymorphism in collections** → stored different `Animal` objects in a `List<Animal>` and invoked `makeSound()` dynamically in a loop.
+7. **Project & Task modeling** →
+    - Created a `Project` class aggregating multiple `Task` objects.
+    - Added fields like `title`, `dueDate`, and `status` to `Task`.
+    - Introduced a base class `Item` with `title`, inherited by `Task`.
+    - Designed a `Completable` interface with `complete()` implemented by `Task`.
+    - Added methods to manage tasks inside `Project` (`addTask`).
+
+**🏋️ Skills demonstrated:**
+- Applying **inheritance** to share behavior across classes.
+- Leveraging **interfaces** to define reusable contracts (`Playable`, `Shape`, `Completable`).
+- Using **abstract classes** for common structure with specialized implementations (`Payment`).
+- Demonstrating **polymorphism** with method overriding and collection-based iteration.
+- Building small-scale **domain models** (`Project` and `Task`) to simulate real-world scenarios.
+
+**💻 Terminal output:**
 
 ```
 Ex01Dog: Burek says Woof!
