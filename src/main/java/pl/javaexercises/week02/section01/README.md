@@ -1,3 +1,28 @@
+### Week 2 / Section 01 — String Manipulation
+
+**Focus:** Practicing operations on `String` objects — transformations, searching, counting, and text filtering.  
+This section demonstrates my ability to solve practical text-processing problems using loops, conditionals, and Java’s built-in methods.
+
+**🎯 Key exercises:**
+1. **Character replacement** → replaced special characters (`@` → `(at)`, `#` → `(hash)`) in a given string.
+2. **Palindrome check** → verified whether a text is a palindrome, ignoring case sensitivity and whitespace.
+3. **Vowel counter** → counted vowels (`a, e, i, o, u, y`) in a string, regardless of case.
+4. **Initials generator** → extracted initials from full names, e.g., `"Jan Kowalski"` → `"J.K."`.
+5. **Alternating case** → converted every second character in a string to uppercase, creating alternating letter patterns.
+6. **Word counter** → counted words in a text based on spaces, tabs, and newlines.
+7. **Duplicate letter remover** → removed repeating characters while keeping their first occurrence.
+8. **Digit-to-word converter** → transformed digits (`0–9`) in text into word equivalents, e.g., `"2"` → `"two"`.
+9. **Text censoring** → replaced forbidden words from a given list with `***`.
+
+**🏋️ Skills demonstrated:**
+- Applying **loops, conditionals, and switch/Map** to transform strings.
+- Using built-in `String` methods (`toLowerCase`, `replace`, `split`, etc.).
+- Combining iteration and conditions to implement **counters, filters, and transformations**.
+- Designing small but practical utilities for real-world text-processing scenarios.
+
+
+**💻 Terminal output:**
+
 ```
 Class name: Ex01CharReplacer 
 Input: nobody@mail.com ###, Result: nobody(at)mail.com (hash)(hash)(hash)
