@@ -1,4 +1,27 @@
-Terminal output: 
+### Week 2 / Section 02 — Validation & Parsing
+
+**Focus:** Building utility methods for validating and parsing user input.  
+This section demonstrates how to apply **regular expressions, string operations, and conditional logic** to ensure data correctness and extract structured information.
+
+**🎯 Key exercises:**
+1. **Task description validation** → ensured the description:
+    - has between 5 and 100 characters,
+    - contains only letters, digits, spaces, dots, and commas,
+    - does not start or end with a space.
+2. **Email validation** → checked strings against a regular expression for email format (`[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}`).
+3. **Password validation** → verified that a password is at least 8 characters long, includes a digit, an uppercase letter, and a special character.
+4. **String parsing** → split structured strings like `"name:surname:age"` into individual fields.
+5. **Word counter** → counted words in a task description.
+6. **Character frequency** → counted occurrences of a given character (e.g., number of commas in a text).
+
+**🏋️ Skills demonstrated:**
+- Applying **regular expressions** for input validation.
+- Using `String.split`, `matches`, and iteration for parsing and checking rules.
+- Creating **robust validation utilities** for descriptions, emails, and passwords.
+- Performing text analysis (word count, character frequency).
+- Gaining experience in **data sanitization and verification**, essential for real-world applications.
+
+**💻 Terminal output:**
 
 ```
 Class name: Ex01DescriptionValidator 
