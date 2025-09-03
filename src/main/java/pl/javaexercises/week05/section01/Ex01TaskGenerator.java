@@ -15,14 +15,17 @@ import java.util.List;
 //generatorThread.join();
 
 public class Ex01TaskGenerator implements Runnable {
-    private final List<Ex01Task> tasks = new ArrayList<>();
+    private final List<Task> tasks = new ArrayList<>();
 
     @Override
     public void run() {
         for(int i = 1; i <= 10 ; i++) {
-            tasks.add(new Ex01Task("Task " + i, LocalDate.now().plusDays(i)));
+            tasks.add(new Task("Task " + i, LocalDate.now().plusDays(i)));
         }
     tasks.forEach(System.out::println);
     }
 
+    public List<Task> getTasks() {
+        return tasks;
+    }
 }
