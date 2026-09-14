@@ -55,6 +55,15 @@ I also included unit tests for selected tasks.
 
 ---
 
+## Week 5: Threads, File I/O & SQL Basics
+- **Topics:** Java threads, Runnable, Java NIO file operations, SQL fundamentals, database tables, queries, updates, and deletes.
+- **Focus:** Expanded Java skills into concurrent programming and file persistence while building a strong foundation in relational databases through MySQL table design, data manipulation, querying, and string functions.
+- **Structure:**
+    - [Section 01](https://github.com/NicoleHoppy/JavaBootcamp/tree/main/src/main/java/pl/javaexercises/week05/section01) → concurrency with threads and Runnable, generating domain objects, and file persistence using Java NIO (Files.write, Files.readAllLines, Files.exists).
+    - [Section 02](https://github.com/NicoleHoppy/JavaBootcamp/tree/main/src/main/java/pl/javaexercises/week05/section02) → SQL fundamentals: creating tables, defining constraints, inserting single and multiple records, querying and filtering data, updating and deleting rows, and using SQL string functions for data transformation.
+
+---
+
 ## 🚀 Notes for Recruiters
 - This repository demonstrates my **step-by-step learning progress** in Java.
 - Each week covers **increasingly advanced concepts**: from basics (loops, arrays) to OOP, interfaces, and unit testing.
