@@ -1,4 +1,4 @@
-# Java Bootcamp — My Learning Journey as a Junior Java Developer
+# Java Bootcamp — My Learning Journey
 
 This repository contains my solutions to exercises from the [Java Jump Bootcamp](https://girlscodefun.pl/en/projects/java-jump-summer-bootcamp/).  
 The code is organized by **weeks** and further divided into **sections**, each focusing on a specific topic.  
